@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Ubuntu&family=Varela+Round&display=swap'); 
 
 :root{
-    --primary-color: purple;
+    --primary-color: #7C3AED;
 }
 
 body{
@@ -9,6 +9,9 @@ body{
     sans-serif;
 }
 
+hr{
+    margin: 2rem 0em;
+}
 /**container **/
 .container{
     padding: 0rem 1;
@@ -28,7 +31,7 @@ body{
 
 .link-primary{
     background-color:var(--primary-color);
-    border-radius: 0.5 rem;
+    border-radius: 0.5rem;
     color: white;
 }
 
