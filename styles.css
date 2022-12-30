@@ -9,6 +9,7 @@
 body{
     font-family: 'Montserrat',
     sans-serif;
+    margin: 0px;
 }
 
 hr{
@@ -113,4 +114,22 @@ border-bottom-left-radius:1rem ;
 
 .ow{
     background-color: var(--off-white);
+}
+
+/**footer**/
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem ;
+    text-align: center;
+    border-top-right-radius: 1rem ;
+    color: white;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 40px;
 }
